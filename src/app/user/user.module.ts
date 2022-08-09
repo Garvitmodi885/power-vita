@@ -11,6 +11,8 @@ import { ProductComponent } from './shared/product/product.component';
 import { AboutComponent } from './page/about/about.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { TestComponent } from './page/test/test.component';
+import { ContactComponent } from './page/contact/contact.component';
+import { PageheadComponent } from './shared/pagehead/pagehead.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { TestComponent } from './page/test/test.component';
     ProductComponent,
     AboutComponent,
     FooterComponent,
-    TestComponent
+    TestComponent,
+    ContactComponent,
+    PageheadComponent
   ],
   imports: [
     CommonModule,
